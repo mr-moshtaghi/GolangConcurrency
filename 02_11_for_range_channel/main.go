@@ -1,14 +1,10 @@
 package main
 
-
 import (
-
 	"fmt"
 
 	"time"
-
 )
-
 
 func main() {
 
@@ -28,7 +24,6 @@ func main() {
 
 }
 
-
 func sum(ch chan int) {
 
 	sum := 0
@@ -42,7 +37,6 @@ func sum(ch chan int) {
 	fmt.Printf("Sum: %d\n", sum)
 
 }
-
 
 // در کد فوق ما یک کانال بافر شده با ظرفیت ۳ ایجاد کردیم سپس ۳ تا مقدار به کانال ارسال
 //کردیم و داخل تابع sum مقادیر را با استفاده از حلقه for-range دریافت و پس از آن چاپ کردیم.
