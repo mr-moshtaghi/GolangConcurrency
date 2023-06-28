@@ -1,2 +1,2 @@
 # GolangConcurrency
-Explanation and exercise in Golang
+Explanation and exercise corruncy in Golang
